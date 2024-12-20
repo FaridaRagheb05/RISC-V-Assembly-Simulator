@@ -1,0 +1,7 @@
+LUI x1,3
+SRLI x2,x1,2
+XOR x3,x1,x2
+OR x4,x3,x1
+SRA x5,x4,x2
+SLLI x6,x5,1
+ECALL
